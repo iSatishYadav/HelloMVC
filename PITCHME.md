@@ -16,23 +16,30 @@ Draw the mandatory Model-View-Controller diagram
 
 ---
 
-View
+**Controller**
 
-Rendering HTML/UI.
-
-Displays Model data
-
----
-
-Controller
+Orchastrator.
 
 Takes user input, gets Model and selects View
 
 ---
 
-Model
+**Model**
+
+Data.
+
+From File System/ Database/ Web-Service... 
 
 ---
+
+**View**
+
+Rendering HTML/UI
+
+Displays Model data
+
+---
+
 
 It's a...
 
@@ -52,6 +59,7 @@ Django
 ... are MVC
 
 ---
+
 Web Forms vs MVC
 
 ---

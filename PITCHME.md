@@ -3,11 +3,11 @@
 
 ---
 
-What's MVC?
+### What's MVC?
 
 ---
-Surprise...
-Model-View-Controller
+### Wait for it...
+### Model-View-Controller
 
 ---
 
@@ -16,119 +16,125 @@ Draw the mandatory Model-View-Controller diagram
 
 ---
 
-**Controller**
-
-Orchestrator.
-
-Builds Model and selects View
+### **Controller**
+### Orchestrator.
+### Builds Model and selects View
 
 ---
 
-**Model**
+### **Model**
 
-Data.
-
-From File System/ Database/ Web-Service... 
+### Data.
+### From File System/ Database/ Web-Service... 
 
 ---
 
 **View**
 
-Rendering HTML/UI
-
-Displays Model data
+### Rendering HTML/UI
+### Displays Model data
 
 ---
 
 
-MVC is...
+### **MVC is...**
 
+### Design Pattern
+### Architecure based on SoC and DRY 
 --- 
 
-MVC is not...
+### **MVC is not...**
 
---- 
-
-Definitely not something Microsoft has invented.
-
----
-
-Struts (Java)
-Ruby on Rails
-Django
-... are MVC
+### A software which you can install
+### Something Microsoft has invented
 
 ---
 
-Web Forms vs MVC
+### Struts (Java)
+### Ruby on Rails
+### Django
+###... are MVC
 
-Loosely Coupled
+---
 
-Not bound to any aspx page.
+### **ASP.NET MVC over ASP.NET Web-Forms**
+
+---
+
+### **Loosely Coupled**
+### View Not bound to any ````.aspx.cs```` code-behind.
  
 ---
 
-````HTTP```` is stateless for god's sake
 
-No illusion of State or ````Page```` life-cycle
+### ````HTTP```` is stateless for god's sake
+### No illusion of State or ````Page```` life-cycle
 
 ---
 
-Clear URLs
-http://satishyadav.com/Users/GetPhoto.aspx?photoId=123
-	vs
+### **Clear URLs**
+
+http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123
+
+vs.
+
 http://satishyadav.com/Users/Photo/123
 
 ---
 
-Clean HTML
+### **Clean HTML**
 
-No ViewState, no wierd client Ids, no gibberish stuff.
-
----
-
-So, it must be something very different than?
+### No ViewState, no wierd client Ids, no gibberish stuff.
 
 ---
 
-No, it's still ASP.NET
+### Alright, so I forget everything I learnt in ASP.NET Web-Forms, then?
+### No, it's still ASP.NET under.
 
-Caching, modules, providers, handlers etc. (all the good stuff) are still there.
+--- 
 
----
-
-**Enough talk! Show me code, already!**
-
----
-
-**Moving parts of ASP.NET MVC**
+### Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are still there.
 
 ---
 
-**Routing**
-
-How on earth, an HTTP request lands on a ````C#```` class?
+### **Enough talk! Show me code, already!**
 
 ---
 
-**Model Binding**
-
-So you don't have to ````Request.Get("txtCustomerName")````
+### **Moving parts of ASP.NET MVC**
 
 ---
 
-**Data Annotations**
+### **Routing**
 
-Write once, use anywhere...
-
----
-
-**Authorization**
-
-~~if(User.Role == "Admin"){...}~~
+### How on earth, an HTTP request lands on a ````C#```` class?
 
 ---
 
-Visual Studio is your perfect (coding) companion
+### **Model Binding**
 
+### So you don't have to ````Request.Get("txtCustomerName")````
+
+---
+
+### **Data Annotations**
+
+### Write once, use anywhere...
+
+---
+
+### **Authorization**
+
+### ~~if(User.Role == "Admin"){...}~~
+
+---
+
+### Visual Studio is your perfect (coding) companion
+### Ctrl+B
+### Ctrl+F5
+### Ctrl+Shift+F5
+### F12
+### Alt+F12
+### F9, F10 and F11
+### and more...
 ---

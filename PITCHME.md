@@ -25,7 +25,8 @@ Displays Model data
 ---
 
 Controller
-Take User input, get Model and Select View
+
+Takes user input, gets Model and selects View
 
 ---
 
@@ -65,13 +66,21 @@ Clear URLs
 http://satishyadav.com/Users/GetPhoto.aspx?photoId=123
 	vs
 http://satishyadav.com/Users/Photo/123
+
 ---
+
 Clean HTML
+
 No ViewState, no wierd client Ids, no gibberish stuff.
+
 ---
 
 So, it must be something new from scratch?
+
 ---
+
 No, it's still ASP.NET
+
 Caching, modules, providers, handlers etc. (all the good stuff) are stilll there.
+
 ---

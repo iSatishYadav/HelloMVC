@@ -1,14 +1,11 @@
-Hello MVC
-===
-Satish Yadav
+### Hello MVC
+##### Satish Yadav
 
 ---
-
 
 What's MVC?
 
 ---
-
 Surprise...
 Model-View-Controller
 
@@ -20,12 +17,18 @@ Draw the mandatory Model-View-Controller diagram
 ---
 
 View
+
 Rendering HTML/UI.
+
 Displays Model data
+
 ---
+
 Controller
 Take User input, get Model and Select View
+
 ---
+
 Model
 
 ---
@@ -39,7 +42,9 @@ It's not a...
 --- 
 
 Not something Microsoft has inveted.
+
 ---
+
 Struts (Java)
 Ruby on Rails
 Django

@@ -49,7 +49,7 @@ MVC is not...
 
 --- 
 
-Definitely not something Microsoft has inveted.
+Definitely not something Microsoft has invented.
 
 ---
 
@@ -62,7 +62,7 @@ Django
 
 Web Forms vs MVC
 
-Loosly Coupled
+Loosely Coupled
 
 Not bound to any aspx page.
  
@@ -93,7 +93,7 @@ So, it must be something very different than?
 
 No, it's still ASP.NET
 
-Caching, modules, providers, handlers etc. (all the good stuff) are stilll there.
+Caching, modules, providers, handlers etc. (all the good stuff) are still there.
 
 ---
 

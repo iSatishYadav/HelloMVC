@@ -18,9 +18,9 @@ Draw the mandatory Model-View-Controller diagram
 
 **Controller**
 
-Orchastrator.
+Orchestrator.
 
-Takes user input, gets Model and selects View
+Builds Model and selects View
 
 ---
 
@@ -41,15 +41,15 @@ Displays Model data
 ---
 
 
-It's a...
+MVC is...
 
 --- 
 
-It's not a...
+MVC is not...
 
 --- 
 
-Not something Microsoft has inveted.
+Definitely not something Microsoft has inveted.
 
 ---
 
@@ -62,11 +62,15 @@ Django
 
 Web Forms vs MVC
 
+Loosly Coupled
+
+Not bound to any aspx page.
+ 
 ---
 
-HTTP is stateless for god's sake.
+````HTTP```` is stateless for god's sake
 
-No illusion of State or "Page" life-cycle
+No illusion of State or ````Page```` life-cycle
 
 ---
 
@@ -83,12 +87,48 @@ No ViewState, no wierd client Ids, no gibberish stuff.
 
 ---
 
-So, it must be something new from scratch?
+So, it must be something very different than?
 
 ---
 
 No, it's still ASP.NET
 
 Caching, modules, providers, handlers etc. (all the good stuff) are stilll there.
+
+---
+
+**Enough talk! Show me code, already!**
+
+---
+
+**Moving parts of ASP.NET MVC**
+
+---
+
+**Routing**
+
+How on earth, an HTTP request lands on a ````C#```` class?
+
+---
+
+**Model Binding**
+
+So you don't have to ````Request.Get("txtCustomerName")````
+
+---
+
+**Data Annotations**
+
+Write once, use anywhere...
+
+---
+
+**Authorization**
+
+~~if(User.Role == "Admin"){...}~~
+
+---
+
+Visual Studio is your perfect (coding) companion
 
 ---

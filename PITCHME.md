@@ -1,15 +1,16 @@
-### Hello MVC
-##### Satish Yadav
+# Hello MVC
+#### Satish Yadav
 
 ---
 
 ### What's MVC?
 
----
-### Wait for it...
-### Model-View-Controller
++++
 
----
+- Wait for it...
+- Model-View-Controller |
+
++++
 
 Draw the mandatory Model-View-Controller diagram
 ![MVC Diagram](https://www.pluralsight.com/content/dam/pluralsight/blog/2015/12/tutorial-angularjs-mvc-implementation/wp/img/AngularJS_01.png)
@@ -17,6 +18,9 @@ Draw the mandatory Model-View-Controller diagram
 ---
 
 ### **Controller**
+
++++
+
 ### Orchestrator.
 ### Builds Model and selects View
 
@@ -27,7 +31,7 @@ Draw the mandatory Model-View-Controller diagram
 ### Data.
 ### From File System/ Database/ Web-Service... 
 
----
++++
 
 **View**
 
@@ -35,7 +39,6 @@ Draw the mandatory Model-View-Controller diagram
 ### Displays Model data
 
 ---
-
 
 ### **MVC is...**
 

@@ -58,8 +58,12 @@ Draw the mandatory Model-View-Controller diagram
 +++
 
 <span class="fragment"> Struts (Java) </span>
+
+
 <span class="fragment"> Ruby on Rails </span>
+
 <span class="fragment"> Django </span>
+
 <span class="fragment"> ... are MVC </span>
 
 ---

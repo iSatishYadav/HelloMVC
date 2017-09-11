@@ -76,8 +76,7 @@ Do-not Repeat Yourself: Model Validations
 
 +++
 
-<span class="fragment"> Struts (Java) </span>
-
+Struts (Java)
 
 <span class="fragment"> Ruby on Rails </span>
 

@@ -7,9 +7,19 @@
 
 +++
 
-#### Wait for it... 
+### Wait for it... 
 
-#### Model-View-Controller. 
+### Model-View-Controller. 
+
+---
+
+### No more <span style="color: #666666">Keynote.</span>
+### No more <span style="color: #666666">Powerpoint.</span>
+<br>
+### Just <span style="color: #e49436">Markdown</span>. Then <span style="color: #e49436">Git-Commit</span>.
+
+---
+
 
 +++
 

@@ -28,6 +28,7 @@ Draw the mandatory Model-View-Controller diagram
 ### Model
 
 <span class="fragment"> Data. </span>
+
 <span class="fragment"> From File System/ Database/ Web-Service... </span>
 
 +++
@@ -35,6 +36,7 @@ Draw the mandatory Model-View-Controller diagram
 ### View
 
 <span class="fragment"> Rendering HTML/UI </span>
+
 <span class="fragment"> Displays Model data </span>
 
 ---
@@ -42,6 +44,7 @@ Draw the mandatory Model-View-Controller diagram
 ### MVC is...
 
 <span class="fragment"> A Design Pattern </span>
+
 <span class="fragment"> Architecure based on SoC and DRY </span>
 
 +++ 
@@ -49,6 +52,7 @@ Draw the mandatory Model-View-Controller diagram
 ### MVC is not...
 
 <span class="fragment"> A software which you can install </span>
+
 <span class="fragment"> Something Microsoft has invented </span>
 
 +++
@@ -151,11 +155,17 @@ Enough talk! Show me code, already!
 ### Keyboard Short-cuts
 
 <span class="fragment"> Ctrl+B </span>
+
 <span class="fragment"> Ctrl+F5 </span>
+
 <span class="fragment"> Ctrl+Shift+F5 </span>
+
 <span class="fragment"> F12 </span>
+
 <span class="fragment"> Alt+F12 </span>
+
 <span class="fragment"> F9, F10 and F11 </span>
+
 <span class="fragment"> and more... </span>
 
 ---

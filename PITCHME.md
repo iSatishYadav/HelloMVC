@@ -12,7 +12,7 @@ Wait for it... |
 Model-View-Controller. 
 
 <ul style="list-style: none;">
-<li class="fragment">**Get** the *word* out</li>
+<li style="display:inline-block" class="fragment">**Get** the *word* out</li>
 <li class="fragment">Here is link [link](https://gitpitch.com)</li>
 <li class="fragment">Presentations for everyone</li>
 <li class="fragment">For <span style="color:red">everyone</span>!</li>

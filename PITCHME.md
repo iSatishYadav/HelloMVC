@@ -177,4 +177,6 @@ Enough talk! Show me code, already!
 
 ---
 
-## Thank you, Happy Coding!
+## Thank you!
+
+## Happy Coding!

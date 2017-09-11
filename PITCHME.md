@@ -7,21 +7,19 @@
 
 +++
 
-### Wait for it... 
+Wait for it... |
 
-### Model-View-Controller. 
+Model-View-Controller. 
+
+<ul>
+<li class="fragment">**Get** the *word* out</li>
+<li class="fragment">Here is link [link](https://gitpitch.com)</li>
+<li class="fragment">Presentations for everyone</li>
+<li class="fragment">For <span style="color:red">everyone</span>!</li>
+</ul>
+
 
 ---
-
-### No more <span style="color: #666666">Keynote.</span>
-### No more <span style="color: #666666">Powerpoint.</span>
-<br>
-### Just <span style="color: #e49436">Markdown</span>. Then <span style="color: #e49436">Git-Commit</span>.
-
----
-
-
-+++
 
 Draw the mandatory Model-View-Controller diagram
 ![MVC Diagram](https://www.pluralsight.com/content/dam/pluralsight/blog/2015/12/tutorial-angularjs-mvc-implementation/wp/img/AngularJS_01.png)

@@ -8,6 +8,7 @@
 +++
 
 Wait for it... |
+
 Model-View-Controller |
 
 +++
@@ -22,7 +23,9 @@ Draw the mandatory Model-View-Controller diagram
 +++
 
 Orchestrator. |
+
 Builds Model and selects View |
+
 
 +++
 

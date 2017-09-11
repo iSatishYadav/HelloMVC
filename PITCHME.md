@@ -27,29 +27,29 @@ Draw the mandatory Model-View-Controller diagram
 
 ### Model
 
-<span class="fragment"> Data. 
-<span class="fragment"> From File System/ Database/ Web-Service... 
+<span class="fragment"> Data. </span>
+<span class="fragment"> From File System/ Database/ Web-Service... </span>
 
 +++
 
 ### View
 
-<span class="fragment"> Rendering HTML/UI 
-<span class="fragment"> Displays Model data 
+<span class="fragment"> Rendering HTML/UI </span>
+<span class="fragment"> Displays Model data </span>
 
 ---
 
 ### MVC is...
 
-<span class="fragment"> A Design Pattern 
+<span class="fragment"> A Design Pattern </span>
 <span class="fragment"> Architecure based on SoC and DRY </span>
 
 +++ 
 
 ### MVC is not...
 
-<span class="fragment"> A software which you can install 
-<span class="fragment"> Something Microsoft has invented 
+<span class="fragment"> A software which you can install </span>
+<span class="fragment"> Something Microsoft has invented </span>
 
 +++
 
@@ -70,7 +70,7 @@ Draw the mandatory Model-View-Controller diagram
 +++
 
 ````HTTP```` is stateless for god's sake
-<span class="fragment"> No illusion of State or ````Page```` life-cycle
+<span class="fragment"> No illusion of State or ````Page```` life-cycle </span>
 
 +++
 
@@ -78,7 +78,7 @@ Draw the mandatory Model-View-Controller diagram
 
 <span class="fragment"> http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123 </span>
 
-<span class="fragment"> vs.
+<span class="fragment"> vs. </span>
 
 <span class="fragment"> http://satishyadav.com/Users/Photo/123 </span>
 

@@ -7,19 +7,12 @@
 
 +++
 
-Wait for it... |
+<span class="fragment"> Wait for it... </span>
 
-Model-View-Controller. 
+<span class="fragment"> Model-View-Controller. </span>
 
-<ul style="list-style: none;">
-<li style="display:inline-block" class="fragment">**Get** the *word* out</li>
-<li class="fragment">Here is link [link](https://gitpitch.com)</li>
-<li class="fragment">Presentations for everyone</li>
-<li class="fragment">For <span style="color:red">everyone</span>!</li>
-</ul>
++++
 
-
----
 
 Draw the mandatory Model-View-Controller diagram
 ![MVC Diagram](https://www.pluralsight.com/content/dam/pluralsight/blog/2015/12/tutorial-angularjs-mvc-implementation/wp/img/AngularJS_01.png)

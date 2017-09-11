@@ -11,7 +11,7 @@ Wait for it... |
 
 Model-View-Controller. 
 
-<ul>
+<ul style="list-style: none;">
 <li class="fragment">**Get** the *word* out</li>
 <li class="fragment">Here is link [link](https://gitpitch.com)</li>
 <li class="fragment">Presentations for everyone</li>

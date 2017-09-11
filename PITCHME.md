@@ -9,10 +9,16 @@
 
 <span class="fragment"> Model-View-Controller. </span>
 
+Note:
+Yeah, surprise.
+
 +++
 
 Draw the mandatory Model-View-Controller diagram
 ![MVC Diagram](https://www.pluralsight.com/content/dam/pluralsight/blog/2015/12/tutorial-angularjs-mvc-implementation/wp/img/AngularJS_01.png)
+
+Note:
+Annoying diagram.
 
 ---
 
@@ -22,6 +28,8 @@ Draw the mandatory Model-View-Controller diagram
 
 <span class="fragment"> Builds Model and selects View </span>
 
+Note:
+Requests lands here, we'll see how...
 
 +++
 
@@ -31,6 +39,9 @@ Draw the mandatory Model-View-Controller diagram
 
 <span class="fragment"> From File System/ Database/ Web-Service... </span>
 
+Note:
+Business Logic.
+
 +++
 
 ### View
@@ -39,6 +50,9 @@ Draw the mandatory Model-View-Controller diagram
 
 <span class="fragment"> Displays Model data </span>
 
+Note:
+Fits Model data to appropriate place and style.
+
 ---
 
 ### MVC is...
@@ -46,6 +60,11 @@ Draw the mandatory Model-View-Controller diagram
 <span class="fragment"> A Design Pattern </span>
 
 <span class="fragment"> Architecure based on SoC and DRY </span>
+
+Note:
+Separation of Concerns: Model, View and Controller.
+Plug and play.
+Do-not Repeat Yourself: Model Validations 
 
 +++ 
 
@@ -74,14 +93,16 @@ Draw the mandatory Model-View-Controller diagram
 
 ### Loosely Coupled
 <span class="fragment"> View isn't bound to any
-<span style="color: #e49436">````.aspx.cs````</span></span>
- code-behind. </span>
- 
+<span style="color: #e49436">````.aspx.cs````</span></span> code-behind. </span>
+
 +++
 
 <span style="color: #e49436">````HTTP````</span></span> is stateless for god's sake
 
 <span class="fragment"> No illusion of State or  <span style="color: #e49436">````Page````</span> life-cycle </span>
+
+Note:
+Everything is an HTTP Call.
 
 +++
 
@@ -99,6 +120,9 @@ Draw the mandatory Model-View-Controller diagram
 
 <span class="fragment"> No ViewState, no wierd client Ids, no gibberish stuff. </span>
 
+Note:
+Search Engine Optimization (SEO) Friendly.
+
 +++ 
 
 Alright, so I forget everything I learnt in ASP.NET Web-Forms, then? </span>
@@ -113,6 +137,9 @@ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are sti
 
 Enough talk! Show me code, already!
 
+Note:
+Create an MVC with No Auth. Create a Model, Controller then View. Do not use Scaffolding yet.
+
 ---
 
 ### Moving parts of ASP.NET MVC
@@ -123,17 +150,28 @@ Enough talk! Show me code, already!
 
 <span class="fragment"> How on earth, an HTTP request lands on a <span style="color: #e49436">````C#````</span> class? </span>
 
+Note:
+Show RouteConfig and a sample request.
+
 +++ 
+
+### Data Validation (using Annotations)
+
+<span class="fragment"> Write once, use anywhere... </span>
+
+<span class="fragment"> <span style="color: #e49436">````ModelState.IsValid````</span></span>
+
+
+Note:
+DRY here.
+Data Annotations, MinLength, Data Type
 
 ### Model Binding
 
 <span class="fragment"> So you don't have to <span style="color: #e49436">````Request.Get("txtCustomerName")````</span> </span>
 
-+++
-
-### Data Annotations
-
-<span class="fragment"> Write once, use anywhere... </span>
+Note:
+How text-boxes and inputs are bound into Action Method parameters.
 
 +++
 

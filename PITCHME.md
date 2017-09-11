@@ -7,8 +7,8 @@
 
 +++
 
-- Wait for it... |
-- Model-View-Controller |
+Wait for it... |
+Model-View-Controller |
 
 +++
 
@@ -21,43 +21,43 @@ Draw the mandatory Model-View-Controller diagram
 
 +++
 
- - Orchestrator. |
- - Builds Model and selects View |
+Orchestrator. |
+Builds Model and selects View |
 
 +++
 
  ### Model
 
- - Data. |
- - From File System/ Database/ Web-Service... |
+Data. |
+From File System/ Database/ Web-Service... |
 
 +++
 
 ### View
 
- - Rendering HTML/UI |
- - Displays Model data |
+Rendering HTML/UI |
+Displays Model data |
 
 ---
 
 ### MVC is...
 
- - A Design Pattern |
- - Architecure based on SoC and DRY |
+A Design Pattern |
+Architecure based on SoC and DRY |
 
 +++ 
 
  ### MVC is not...
 
- - A software which you can install |
- - Something Microsoft has invented |
+A software which you can install |
+Something Microsoft has invented |
 
 +++
 
- - Struts (Java) |
- - Ruby on Rails |
- - Django |
- - ... are MVC |
+Struts (Java) |
+Ruby on Rails |
+Django |
+... are MVC |
 
 ---
 
@@ -66,7 +66,7 @@ Draw the mandatory Model-View-Controller diagram
 +++
 
  ### Loosely Coupled
- - View isn't bound to any ````.aspx.cs```` code-behind. |
+View isn't bound to any ````.aspx.cs```` code-behind. |
  
 +++
 
@@ -77,7 +77,7 @@ Draw the mandatory Model-View-Controller diagram
 
  ### Clear URLs
 
- - http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123 |
+http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123 |
 
 vs.
 
@@ -87,13 +87,13 @@ vs.
 
  ### Clean HTML
 
- - No ViewState, no wierd client Ids, no gibberish stuff. |
+No ViewState, no wierd client Ids, no gibberish stuff. |
 
 +++ 
 
- - Alright, so I forget everything I learnt in ASP.NET Web-Forms, then? |
+Alright, so I forget everything I learnt in ASP.NET Web-Forms, then? |
  
- - No, it's still ASP.NET under. |
+No, it's still ASP.NET under. |
 
 +++  
 
@@ -111,25 +111,25 @@ vs.
 
  ### Routing
 
- - How on earth, an HTTP request lands on a ````C#```` class? |
+How on earth, an HTTP request lands on a ````C#```` class? |
 
 +++ 
 
  ### Model Binding
 
- - So you don't have to ````Request.Get("txtCustomerName")```` |
+So you don't have to ````Request.Get("txtCustomerName")```` |
 
 +++
 
  ### Data Annotations
 
- - Write once, use anywhere... |
+Write once, use anywhere... |
 
 +++
 
  ### Authorization
 
- - ~~if(User.Role == "Admin"){...}~~ |
+~~if(User.Role == "Admin"){...}~~ |
 
 ---
 
@@ -151,12 +151,14 @@ vs.
 
 ### Keyboard Short-cuts
 
- - Ctrl+B |
- - Ctrl+F5 |
- - Ctrl+Shift+F5 |
- - F12 |
- - Alt+F12 |
- - F9, F10 and F11 |
- - and more... |
+Ctrl+B |
+Ctrl+F5 |
+Ctrl+Shift+F5 |
+F12 |
+Alt+F12 |
+F9, F10 and F11 |
+and more... |
 
 ---
+
+## Thank you, Happy Coding!

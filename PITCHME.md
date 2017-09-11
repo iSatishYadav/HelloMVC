@@ -73,12 +73,15 @@ Draw the mandatory Model-View-Controller diagram
 +++
 
 ### Loosely Coupled
-<span class="fragment"> View isn't bound to any ````.aspx.cs```` code-behind. </span>
+<span class="fragment"> View isn't bound to any
+<span style="color: #e49436">````.aspx.cs````</span></span>
+ code-behind. </span>
  
 +++
 
-````HTTP```` is stateless for god's sake
-<span class="fragment"> No illusion of State or ````Page```` life-cycle </span>
+<span style="color: #e49436">````HTTP````</span></span> is stateless for god's sake
+
+<span class="fragment"> No illusion of State or  <span style="color: #e49436">````Page````</span> life-cycle </span>
 
 +++
 
@@ -118,13 +121,13 @@ Enough talk! Show me code, already!
 
 ### Routing
 
-<span class="fragment"> How on earth, an HTTP request lands on a ````C#```` class? </span>
+<span class="fragment"> How on earth, an HTTP request lands on a <span style="color: #e49436">````C#````</span> class? </span>
 
 +++ 
 
 ### Model Binding
 
-<span class="fragment"> So you don't have to ````Request.Get("txtCustomerName")```` </span>
+<span class="fragment"> So you don't have to <span style="color: #e49436">````Request.Get("txtCustomerName")````</span> </span>
 
 +++
 
@@ -136,7 +139,7 @@ Enough talk! Show me code, already!
 
 ### Authorization
 
-<span class="fragment"> ````~~if(User.Role == "Admin"){...}~~```` </span>
+<span class="fragment"> <span style="color: #e49436">````~~if(User.Role == "Admin"){...}~~````</span> </span>
 
 ---
 

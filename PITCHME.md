@@ -1,5 +1,5 @@
 # Hello MVC
-#### Satish Yadav
+### Satish Yadav
 
 ---
 
@@ -7,7 +7,7 @@
 
 +++
 
-- Wait for it...
+- Wait for it... |
 - Model-View-Controller |
 
 +++
@@ -17,127 +17,146 @@ Draw the mandatory Model-View-Controller diagram
 
 ---
 
-### **Controller**
+ ### Controller
 
 +++
 
-### Orchestrator.
-### Builds Model and selects View
-
----
-
-### **Model**
-
-### Data.
-### From File System/ Database/ Web-Service... 
+ - Orchestrator. |
+ - Builds Model and selects View |
 
 +++
 
-**View**
+ ### Model
 
-### Rendering HTML/UI
-### Displays Model data
+ - Data. |
+ - From File System/ Database/ Web-Service... |
 
----
++++
 
-### **MVC is...**
+### View
 
-### Design Pattern
-### Architecure based on SoC and DRY 
---- 
-
-### **MVC is not...**
-
-### A software which you can install
-### Something Microsoft has invented
+ - Rendering HTML/UI |
+ - Displays Model data |
 
 ---
 
-### Struts (Java)
-### Ruby on Rails
-### Django
-###... are MVC
+### MVC is...
+
+ - A Design Pattern |
+ - Architecure based on SoC and DRY |
+
++++ 
+
+ ### MVC is not...
+
+ - A software which you can install |
+ - Something Microsoft has invented |
+
++++
+
+ - Struts (Java) |
+ - Ruby on Rails |
+ - Django |
+ - ... are MVC |
 
 ---
 
-### **ASP.NET MVC over ASP.NET Web-Forms**
+ ### ASP.NET MVC over ASP.NET Web-Forms 
 
----
++++
 
-### **Loosely Coupled**
-### View Not bound to any ````.aspx.cs```` code-behind.
+ ### Loosely Coupled
+ - View isn't bound to any ````.aspx.cs```` code-behind. |
  
----
++++
 
+-  ````HTTP```` is stateless for god's sake
+ No illusion of State or ````Page```` life-cycle
 
-### ````HTTP```` is stateless for god's sake
-### No illusion of State or ````Page```` life-cycle
++++
 
----
+ ### Clear URLs
 
-### **Clear URLs**
-
-http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123
+ - http://satishyadav.com/Users/GetUserPhoto.aspx?userPhotoId=123 |
 
 vs.
 
-http://satishyadav.com/Users/Photo/123
+- http://satishyadav.com/Users/Photo/123 |
+
++++
+
+ ### Clean HTML
+
+ - No ViewState, no wierd client Ids, no gibberish stuff. |
+
++++ 
+
+ - Alright, so I forget everything I learnt in ASP.NET Web-Forms, then? |
+ 
+ - No, it's still ASP.NET under. |
+
++++  
+
+ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are still there.
 
 ---
 
-### **Clean HTML**
-
-### No ViewState, no wierd client Ids, no gibberish stuff.
+ Enough talk! Show me code, already!
 
 ---
 
-### Alright, so I forget everything I learnt in ASP.NET Web-Forms, then?
-### No, it's still ASP.NET under.
+ ### Moving parts of ASP.NET MVC
 
---- 
++++
 
-### Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are still there.
+ ### Routing
 
----
+ - How on earth, an HTTP request lands on a ````C#```` class? |
 
-### **Enough talk! Show me code, already!**
++++ 
 
----
+ ### Model Binding
 
-### **Moving parts of ASP.NET MVC**
+ - So you don't have to ````Request.Get("txtCustomerName")```` |
 
----
++++
 
-### **Routing**
+ ### Data Annotations
 
-### How on earth, an HTTP request lands on a ````C#```` class?
+ - Write once, use anywhere... |
 
----
++++
 
-### **Model Binding**
+ ### Authorization
 
-### So you don't have to ````Request.Get("txtCustomerName")````
-
----
-
-### **Data Annotations**
-
-### Write once, use anywhere...
+ - ~~if(User.Role == "Admin"){...}~~ |
 
 ---
 
-### **Authorization**
+ ### Visual Studio is your perfect (coding) companion
+ 
++++
+ 
+### Scaffolding
 
-### ~~if(User.Role == "Admin"){...}~~
++++ 
 
----
+### Surround
 
-### Visual Studio is your perfect (coding) companion
-### Ctrl+B
-### Ctrl+F5
-### Ctrl+Shift+F5
-### F12
-### Alt+F12
-### F9, F10 and F11
-### and more...
++++ 
+
+### Code Snippets
+
++++ 
+
+### Keyboard Short-cuts
+
+ - Ctrl+B |
+ - Ctrl+F5 |
+ - Ctrl+Shift+F5 |
+ - F12 |
+ - Alt+F12 |
+ - F9, F10 and F11 |
+ - and more... |
+
 ---

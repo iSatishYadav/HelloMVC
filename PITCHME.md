@@ -136,7 +136,7 @@ Enough talk! Show me code, already!
 
 ### Authorization
 
-<span class="fragment"> ~~if(User.Role == "Admin"){...}~~ </span>
+<span class="fragment"> ````~~if(User.Role == "Admin"){...}~~```` </span>
 
 ---
 

@@ -93,7 +93,7 @@ Struts (Java)
 
 ### Loosely Coupled
 <span class="fragment"> View isn't bound to any
-<span style="color: #e49436">````.aspx.cs````</span></span> code-behind. </span>
+<span style="color: #e49436">````.aspx.cs````</span> code-behind. </span>
 
 +++
 

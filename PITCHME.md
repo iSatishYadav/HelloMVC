@@ -22,16 +22,6 @@ Annoying diagram.
 
 ---
 
-### Controller
-
-<span class="fragment"> Orchestrator </span>
-
-<span class="fragment"> Builds Model and selects View </span>
-
-Note:
-Requests lands here, we'll see how...
-
-+++
 
 ### Model
 
@@ -52,6 +42,17 @@ Business Logic.
 
 Note:
 Fits Model data to appropriate place and style.
+
+---
+
+### Controller
+
+<span class="fragment"> Orchestrator </span>
+
+<span class="fragment"> Builds Model and selects View </span>
+
+Note:
+Requests lands here, we'll see how...
 
 ---
 

@@ -166,6 +166,8 @@ Note:
 DRY here.
 Data Annotations, MinLength, Data Type
 
++++
+
 ### Model Binding
 
 <span class="fragment"> So you don't have to <span style="color: #e49436">````Request.Get("txtCustomerName")````</span> </span>

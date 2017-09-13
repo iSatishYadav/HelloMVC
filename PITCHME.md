@@ -179,7 +179,7 @@ How text-boxes and inputs are bound into Action Method parameters.
 
 ### Authorization
 
-<span class="fragment"> <span style="color: #e49436">````~~if(User.Role == "Admin"){...}~~````</span> </span>
+<span class="fragment"> <span style="color: #e49436"> ~~````if(User.Role == "Admin"){...}````~~</span> </span>
 
 ---
 

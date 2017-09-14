@@ -192,6 +192,29 @@ Show how it's created an full blown CRUD site for Customer Model without writing
 
 ### Entity Framework
 
+<span class="fragment">ORM</span>
+
+<span class="fragment">Handles all the dirty work, like:</span>
+
+<span class="fragment">Connection</span>
+
+<span class="fragment">De-serialization</span>
+
+<span class="fragment">Transactions</span>
+
+<span class="fragment">Disposing a Connection</span>
+
+
+Note:
+Object-relational mapping
+
++++
+
+### Where is my Database?
+
+<span class="fragment"><span style="color: #e49436">````(localdb\MSQSQLLOCALDB))````</span></span>
+
+
 ---
 
 ### Data Annotations

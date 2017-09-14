@@ -161,6 +161,8 @@ Show About, Contact and Responsiveness (Bootstrap)
 Note:
 Id, Name, Email, Age
 
+Getters and Setters
+
 +++
 
 ### Add a Controller

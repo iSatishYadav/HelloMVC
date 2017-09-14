@@ -170,6 +170,26 @@ Use Scaffolding.
 Build and Run.
 Show how it's created an full blown CRUD site for Customer Model without writing any code.
 
+---
+
+### Peek inside generated Code
+
++++
+
+### Controller
+
+<span class="fragment">List</span>
+<span class="fragment">Create</span>
+<span class="fragment">Edit</span>
+<span class="fragment">Delete</span>
+<span class="fragment">Confirm Delete</span>
+
++++
+
+### Entity Framework
+
+---
+
 ### Data Annotations
 
 <span class="fragment">Decorate your data with <span style="color: #e49436">````Attributes````</span></span>

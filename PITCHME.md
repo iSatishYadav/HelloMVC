@@ -144,7 +144,7 @@ Create an MVC with No Auth. Create a Model, Controller then View. Do not use Sca
 
 ### Moving parts of ASP.NET MVC
 
-+++
+---
 
 ### Routing
 
@@ -152,8 +152,15 @@ Create an MVC with No Auth. Create a Model, Controller then View. Do not use Sca
 
 Note:
 Show RouteConfig and a sample request.
+Map a new Route with default action as About.
 
-+++ 
+--- 
+
+### Razor
+
+
+
+---
 
 ### Data Validation (using Annotations)
 
@@ -163,6 +170,11 @@ Show RouteConfig and a sample request.
 
 
 Note:
+Create a new Model Customer, add a new Empty Controller.
+Don't use initialization syntax, show it afterwards.
+
+Create a 
+
 DRY here.
 Data Annotations, MinLength, Data Type
 

@@ -254,14 +254,20 @@ Add Display Name = "Email Address" and show.
 
 ### Model Validations
 
+<span class="fragment"> Write once, use anywhere... </span>
+
 <span class="fragment"><span style="color: #e49436">````Required````</span></span>
 
 <span class="fragment"><span style="color: #e49436">````MinLength````</span></span>
 
 <span class="fragment"><span style="color: #e49436">````MaxLength````</span></span>
 
+<span class="fragment">Will be used when <span style="color: #e49436">````ModelState.IsValid````</span> is called.</span>
 
 Note:
+DRY here. In Web-forms, each screen needs to have these validations.
+
+In MVC think about Data not Screens.
 
 Add DataType(DataType.EmailAddress) and show validation and Keyboard @ Sign.
 
@@ -283,31 +289,6 @@ If Code First Error comes, Enable-Migrations, Add-Migration and Update-Database
 Note:
 Show RouteConfig and a sample request.
 Map a new Route with default action as About.
-
-+++ 
-
-### Razor
-
-<span class="fragment">
-<span style="color:#e49436">````@Html.TextboxFor````</span></span>
-
-+++
-
-### Data Validation (using Annotations)
-
-<span class="fragment"> Write once, use anywhere... </span>
-
-<span class="fragment"> <span style="color: #e49436">````ModelState.IsValid````</span></span>
-
-
-Note:
-Create a new Model Customer, add a new Empty Controller.
-Don't use initialization syntax, show it afterwards.
-
-Create a 
-
-DRY here.
-Data Annotations, MinLength, Data Type
 
 +++
 

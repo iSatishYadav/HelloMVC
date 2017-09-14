@@ -152,11 +152,29 @@ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are sti
 Note:
 Create an MVC with No Auth.
 Show folder structure.
-Create a Model, Controller then View.
+Show About, Contact and Responsiveness (Bootstrap)
+
++++
+
+### Add a Model
+
+Note:
+Id, Name, Email, Age
+
++++
+
+### Add a Controller
+
+Note:
+Use Scaffolding.
+Build and Run.
+Show how it's created an full blown CRUD site for Customer Model without writing any code.
+
+### Data Annotations
+
+<span class="fragment">Decorate your data with <span style="color: #e49436">````Attributes````</span></span>
 
 
-
----
 
 ### Moving parts of ASP.NET MVC
 

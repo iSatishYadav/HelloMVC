@@ -251,7 +251,25 @@ Go to Views folder and also GoToView on Action (Ctrl+M, G)
 
 Note:
 Add Display Name = "Email Address" and show.
+
+### Model Validations
+
+<span class="fragment"><span style="color: #e49436">````Required````</span></span>
+
+<span class="fragment"><span style="color: #e49436">````MinLength````</span></span>
+
+<span class="fragment"><span style="color: #e49436">````MaxLength````</span></span>
+
+
+Note:
+
 Add DataType(DataType.EmailAddress) and show validation and Keyboard @ Sign.
+
+Add Required, MinLength and MaxLength to Name and show.
+
+Add Range to Age and show.
+
+If Code First Error comes, Enable-Migrations, Add-Migration and Update-Database 
 
 
 ### Moving parts of ASP.NET MVC

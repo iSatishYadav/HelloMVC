@@ -216,6 +216,30 @@ Object-relational mapping
 
 Note:
 Open SSMS and show database.
+
+### Action Methods
+
+Note:
+
+Show code in Index and Details.
+
+Show flow Controller->Model->View
+
+---
+
+### Views and Razor
+
+<span class="fragment">Html Helpers</span>
+
+<span class="fragment">Razor Expressions</span>
+
+<span class="fragment">Code Blocks</span>
+
+
+Note:
+Go to Views folder and also GoToView on Action (Ctrl+M, G)
+
+
 ---
 
 ### Data Annotations

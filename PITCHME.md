@@ -101,7 +101,7 @@ Struts (Java)
 
 <span class="fragment"> No illusion of State or  <span style="color: #e49436">````Page````</span> life-cycle </span>
 
-<span class="fragment"> No abstraction from <span style="color: #e49436">````HTML/JS/CSS````</span> life-cycle </span>
+<span class="fragment"> No abstraction from <span style="color: #e49436">````HTML/JS````</span></span>
 
 <span class="fragment"> Easy to Unit Test</span>
 

@@ -239,13 +239,19 @@ Show flow Controller->Model->View
 Note:
 Go to Views folder and also GoToView on Action (Ctrl+M, G)
 
-
 ---
 
 ### Data Annotations
 
 <span class="fragment">Decorate your data with <span style="color: #e49436">````Attributes````</span></span>
 
+<span class="fragment"><span style="color: #e49436">````Display````</span></span>
+
+<span class="fragment"><span style="color: #e49436">````DataType````</span></span>
+
+Note:
+Add Display Name = "Email Address" and show.
+Add DataType(DataType.EmailAddress) and show validation and Keyboard @ Sign.
 
 
 ### Moving parts of ASP.NET MVC

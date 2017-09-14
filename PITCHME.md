@@ -101,8 +101,13 @@ Struts (Java)
 
 <span class="fragment"> No illusion of State or  <span style="color: #e49436">````Page````</span> life-cycle </span>
 
+<span class="fragment"> No abstraction from <span style="color: #e49436">````HTML/JS/CSS````</span> life-cycle </span>
+
+<span class="fragment"> Easy to Unit Test</span>
+
 Note:
-Everything is an HTTP Call.
+No ViewState.
+In MVC Everything is an HTTP Call.
 
 +++
 
@@ -138,7 +143,11 @@ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are sti
 Enough talk! Show me code, already!
 
 Note:
-Create an MVC with No Auth. Create a Model, Controller then View. Do not use Scaffolding yet.
+Create an MVC with No Auth.
+Show folder structure.
+Create a Model, Controller then View.
+
+
 
 ---
 

@@ -106,7 +106,9 @@ Struts (Java)
 <span class="fragment"> Easy to Unit Test</span>
 
 Note:
+
 No ViewState.
+
 In MVC Everything is an HTTP Call.
 
 +++
@@ -126,6 +128,11 @@ In MVC Everything is an HTTP Call.
 <span class="fragment"> No ViewState, no wierd client Ids, no gibberish stuff. </span>
 
 Note:
+
+W/F generates a lot of HTML/JS to make Server Side Control to work.
+
+In MVC, you have all the control over what is being generated.
+
 Search Engine Optimization (SEO) Friendly.
 
 +++ 
@@ -140,7 +147,7 @@ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are sti
 
 ---
 
-Enough talk! Show me code, already!
+### Enough talk! Show me code, already!
 
 Note:
 Create an MVC with No Auth.

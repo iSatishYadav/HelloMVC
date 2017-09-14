@@ -179,9 +179,13 @@ Show how it's created an full blown CRUD site for Customer Model without writing
 ### Controller
 
 <span class="fragment">List</span>
+
 <span class="fragment">Create</span>
+
 <span class="fragment">Edit</span>
+
 <span class="fragment">Delete</span>
+
 <span class="fragment">Confirm Delete</span>
 
 +++

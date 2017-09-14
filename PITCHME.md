@@ -159,9 +159,11 @@ Show About, Contact and Responsiveness (Bootstrap)
 ### Add a Model
 
 Note:
-Id, Name, Email, Age
+Id, Name, Email, Age.
 
-Getters and Setters
+Getters and Setters.
+
+prop tab tab.
 
 +++
 

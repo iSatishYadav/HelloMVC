@@ -144,7 +144,7 @@ Create an MVC with No Auth. Create a Model, Controller then View. Do not use Sca
 
 ### Moving parts of ASP.NET MVC
 
----
++++
 
 ### Routing
 
@@ -154,13 +154,14 @@ Note:
 Show RouteConfig and a sample request.
 Map a new Route with default action as About.
 
---- 
++++ 
 
 ### Razor
 
+<span class="fragment">
+<span style="color:#e49436">````@Html.TextboxFor````</span></span>
 
-
----
++++
 
 ### Data Validation (using Annotations)
 

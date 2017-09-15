@@ -258,6 +258,8 @@ Go to Views folder and also GoToView on Action (Ctrl+M, G)
 Note:
 Add Display Name = "Email Address" and show.
 
+---
+
 ### Model Validations
 
 <span class="fragment"> Write once, use anywhere... </span>

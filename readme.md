@@ -4,4 +4,4 @@
 
 This is a GitPitch Presentation on ASP.NET MVC introduction.
 
-See [here][https://gitpitch.com/iSatishYadav/HelloMVC].
+See [https://gitpitch.com/iSatishYadav/HelloMVC](https://gitpitch.com/iSatishYadav/HelloMVC).

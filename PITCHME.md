@@ -285,6 +285,7 @@ Add Range to Age and show.
 
 If Code First Error comes, Enable-Migrations, Add-Migration and Update-Database 
 
+---
 
 ### Moving parts of ASP.NET MVC
 

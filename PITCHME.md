@@ -9,16 +9,10 @@
 
 <span class="fragment"> Model-View-Controller. </span>
 
-Note:
-Yeah, surprise.
-
 +++
 
 Draw the mandatory Model-View-Controller diagram
 ![MVC Diagram](https://www.pluralsight.com/content/dam/pluralsight/blog/2015/12/tutorial-angularjs-mvc-implementation/wp/img/AngularJS_01.png)
-
-Note:
-Annoying diagram.
 
 ---
 
@@ -29,9 +23,6 @@ Annoying diagram.
 
 <span class="fragment"> From File System/ Database/ Web-Service... </span>
 
-Note:
-Business Logic.
-
 +++
 
 ### View
@@ -39,9 +30,6 @@ Business Logic.
 <span class="fragment"> Rendering HTML/UI </span>
 
 <span class="fragment"> Displays Model data </span>
-
-Note:
-Fits Model data to appropriate place and style.
 
 +++
 
@@ -51,23 +39,15 @@ Fits Model data to appropriate place and style.
 
 <span class="fragment"> Builds Model and selects View </span>
 
-Note:
-Requests lands here, we'll see how...
-
 ---
 
 ### MVC is...
 
 <span class="fragment"> A Design Pattern </span>
 
-<span class="fragment"> Architecure based on SoC and DRY </span>
+<span class="fragment"> Architecture based on SoC and DRY </span>
 
-Note:
-Separation of Concerns: Model, View and Controller.
-Plug and play.
-Do-not Repeat Yourself: Model Validations 
-
-+++ 
++++
 
 ### MVC is not...
 
@@ -87,7 +67,7 @@ Struts (Java)
 
 ---
 
-### ASP.NET MVC over ASP.NET Web-Forms 
+### ASP.NET MVC over ASP.NET Web-Forms
 
 +++
 
@@ -105,12 +85,6 @@ Struts (Java)
 
 <span class="fragment"> Easy to Unit Test</span>
 
-Note:
-
-No ViewState.
-
-In MVC Everything is an HTTP Call.
-
 +++
 
 ### Clear URLs
@@ -125,20 +99,12 @@ In MVC Everything is an HTTP Call.
 
 ### Clean HTML
 
-<span class="fragment"> No ViewState, no wierd client Ids, no gibberish stuff. </span>
+<span class="fragment"> No ViewState, no weird client Ids, no gibberish stuff. </span>
 
-Note:
-
-W/F generates a lot of HTML/JS to make Server Side Control to work.
-
-In MVC, you have all the control over what is being generated.
-
-Search Engine Optimization (SEO) Friendly.
-
-+++ 
++++
 
 Alright, so I forget everything I learnt in ASP.NET Web-Forms, then? </span>
- 
+
 <span class="fragment">No, it's still ASP.NET under. </span>
 
 +++  
@@ -149,21 +115,9 @@ Caching, Cookies, modules, providers, handlers etc. (all the good stuff) are sti
 
 ### Enough talk! Show me code, already!
 
-Note:
-Create an MVC with No Auth.
-Show folder structure.
-Show About, Contact and Responsiveness (Bootstrap)
-
 +++
 
 ### Add a Model
-
-Note:
-Id, Name, Email, Age.
-
-Getters and Setters.
-
-prop tab tab.
 
 +++
 
@@ -283,7 +237,7 @@ Add Required, MinLength and MaxLength to Name and show.
 
 Add Range to Age and show.
 
-If Code First Error comes, Enable-Migrations, Add-Migration and Update-Database 
+If Code First Error comes, Enable-Migrations, Add-Migration and Update-Database
 
 ---
 
@@ -324,20 +278,20 @@ How text-boxes and inputs are bound into Action Method parameters.
 ---
 
 ### Visual Studio is your perfect (coding) companion
- 
+
 +++
- 
+
 ### Scaffolding
 
-+++ 
++++
 
 ### Surround
 
-+++ 
++++
 
 ### Code Snippets
 
-+++ 
++++
 
 ### Keyboard Short-cuts
 

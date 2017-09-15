@@ -216,7 +216,7 @@ Object-relational mapping
 
 ### Where is my Database?
 
-<span class="fragment"><span style="color: #e49436">````(localdb)\MSQSQLLOCALDB````</span></span>
+<span class="fragment"><span style="color: #e49436">````(localdb)\MSSQLLOCALDB````</span></span>
 
 Note:
 Open SSMS and show database.
